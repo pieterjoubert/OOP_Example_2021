@@ -10,5 +10,11 @@ public class Main {
         hero.TakeDamage(30);
         System.out.println(hero.DisplayInfo());
 
+        Weapon longsword = new Weapon("Narsil", 100);
+        longsword.Use();
+
+        Consumable potion = new Consumable("Greater Healing Potion", 25);
+        potion.Use();
+
     }
 }
