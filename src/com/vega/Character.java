@@ -25,21 +25,21 @@ public class Character {
     }
 
     //method to update hitpoints based on a damage value
-    public void TakeDamage(int _damage) {
+    public void takeDamage(int _damage) {
         hp = hp - _damage;
     }
 
     //HP Getter
-    public int GetHP() {
+    public int getHP() {
         return hp;
     }
 
     //Damage Getter
-    public int GetDamage () {
+    public int getDamage() {
         return damage;
     }
 
-    public String DisplayInfo() {
+    public String displayInfo() {
         String temp = "";
         temp += "\t\t" + name + "\n " + "Stats: [" + hp + "," + damage + "]";
         return temp;

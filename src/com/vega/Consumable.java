@@ -11,7 +11,7 @@ public class Consumable extends Item {
     }
 
     @Override
-    public void Use() {
-        System.out.println("You use " + super.GetName() + " to heal " + value + " hp!");
+    public void use() {
+        System.out.println("You use " + super.getName() + " to heal " + value + " hp!");
     }
 }

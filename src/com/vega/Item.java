@@ -7,15 +7,15 @@ public class Item {
         name = _name;
     }
 
-    public String GetName() {
+    public String getName() {
         return name;
     }
 
-    public void Equip() {
+    public void equip() {
         System.out.println("You have equipped: " + name);
     }
 
-    public void Use() {
+    public void use() {
         System.out.println("You use: " + name);
     }
 }

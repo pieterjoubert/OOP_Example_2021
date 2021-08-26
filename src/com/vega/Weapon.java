@@ -11,7 +11,7 @@ public class Weapon extends Item {
     }
 
     @Override
-    public void Use() {
-        System.out.println("You use " + super.GetName() + " to do " + damage + " damage!");
+    public void use() {
+        System.out.println("You use " + super.getName() + " to do " + damage + " damage!");
     }
 }
